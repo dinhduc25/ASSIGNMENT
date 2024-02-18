@@ -1,0 +1,127 @@
+header{
+    background-image: url(../img/anhtruong.jpg);
+    padding-bottom: 10%;
+    background-size: 100% 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: none;
+    color: black;
+    float: left ;
+    padding: 0px 10px;
+}
+nav{
+    height: 40px;
+    background: blue;
+    margin-bottom: 5px;
+}
+nav ul{
+   list-style: none;
+   margin-bottom: 0;
+}
+nav ul li{
+    float: left;
+    padding: 0 25px;
+    border-right: 1px solid gray;
+}
+nav ul li:hover{
+    background: red;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    line-height: 40px;
+}
+.tk{
+    float: right;
+    margin: 10px;
+}
+nav.tk input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+}
+nav.tk button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: #fff;
+    margin-left: -5px;
+}
+.c{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+aside{
+    float: left;
+    width: 20%;
+
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+}
+.menu ul{
+    list-style: none; 
+}
+.menu ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+.menu ul li:hover{
+    background: red;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background: blue;
+    color: #fff;
+    text-align: center;
+}
+.ft1{
+    float: left;
+    width: 400px;
+    margin-bottom: 55px;
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.ft3{
+    width: 100%;
+    clear: both;
+    height: 20px;
+    background: aqua;
+}
+.ft3 p{
+    color: red;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.content_mid{
+    width: 100%;
+    float: left;
+}
+
+.content_right{
+    padding: 10px;
+    float: left;
+    width: 75%;
+    height:auto;    
+}
